@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "fredoka";
+  src: url(/assets/fonts/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: fredoka;
+  background-color: #00509d;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  background-color: #FFFFFF;
+  color: #00509d;
+  padding: 20px;
+  height: 550px;
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 36px 12px 80px 5px #252222;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+}
+
+.logo img{
+  height: 100px;
+  width: 100px;
+}
+
+.title h1{
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.intro p{
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  gap: 10px;
+}
+
+.username-section label, .password-section label{
+  font-size: 0.75rem;
+}
+
+.username-section, .password-section{
+  padding: 6px 10px;
+  background-color: #00509d;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.username-section input[type="email"], .password-section input[type="password"]{
+  height: 40px;
+  width: 220px;
+  background-color: #00509d;
+  color: #FFFFFF;
+  border: none;
+  padding: 2px 6px;
+}
+
+.username-section input[type="email"], .password-section input[type="password"]:focus{
+  outline: none;
+}
+
+.button-section input[type="button"]{
+  padding: 10px 80px;
+  border-radius: 20px;
+  background-color: #00509d;
+  color: #FFFFFF;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.button-section input[type="button"]:hover{
+  background-color: #FFFFFF;
+  color: #00509d;
+  border: 2px solid #00509d;
+}
+
+.frgt-password{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+
+.frgt-password a{
+  color: #00509d;
+  font-size: 0.875rem;
+}
+
+.frgt-password a:hover{
+  text-decoration: underline;
+}
+
+.not-have-account{
+  display: flex;
+  justify-content: center;
+  font-size: 0.875rem;
+}
+
+.not-have-account a{
+  color: #00509d;
+}
+
+.not-have-account a:hover{
+  text-decoration: underline;
+}
+
